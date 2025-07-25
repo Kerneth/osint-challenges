@@ -34,6 +34,8 @@ The investigation leveraged passive reconnaissance techniques using publicly ava
 * **Result:**
   Found the Twitter account associated with the alias. The profile avatar depicts a **cat**.
 
+![Twitter profile](images/ohsint_twitter.png)
+
 > ✅ **Answer:** `cat`
 
 ---
@@ -46,6 +48,9 @@ The investigation leveraged passive reconnaissance techniques using publicly ava
   The GitHub profile explicitly lists the user's location.
 * **Result:**
   The location field indicates **London**.
+
+
+![GitHub profile - London](images/ohsint_github.png)
 
 > ✅ **Answer:** `London`
 
@@ -60,6 +65,8 @@ The investigation leveraged passive reconnaissance techniques using publicly ava
 * **Result:**
   The BSSID resolves to a Wi-Fi access point with SSID: **UnileverWiFi**.
 
+![Wigle.net BSSID result](images/ohsint_wifi.png)
+
 > ✅ **Answer:** `UnileverWiFi`
 
 ---
@@ -70,6 +77,8 @@ The investigation leveraged passive reconnaissance techniques using publicly ava
   Reviewed the GitHub profile for contact details.
 * **Result:**
   Found the email address: **[owoodflint@gmail.com](mailto:owoodflint@gmail.com)**
+
+![GitHub profile - email](images/ohsint_github.png)
 
 > ✅ **Answer:** `owoodflint@gmail.com`
 
@@ -95,6 +104,8 @@ The investigation leveraged passive reconnaissance techniques using publicly ava
 * **Observation:**
   The post says: *“I'm in New York right now, so I will update this site right away with new photos!”*
 
+![WordPress travel update](images/ohsint_wordpress.png)
+
 > ✅ **Answer:** `New York`
 
 ---
@@ -110,6 +121,8 @@ The investigation leveraged passive reconnaissance techniques using publicly ava
   ```html
   <p style="color:#ffffff;" class="has-text-color">pennYDr0pper.!</p>
   ```
+
+![Password found in HTML](images/ohsint_mdp.png)
 
 > ✅ **Answer:** `pennYDr0pper.!`
 
